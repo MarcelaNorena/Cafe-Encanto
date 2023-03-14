@@ -1,11 +1,9 @@
-import MainLayout from './Layout/MainLayout'
+import Router from './Layout/Rutas'
 import './App.css';
 
 function App() {
   return (
-    <MainLayout className="App">
-      👷‍♀️🚧Sitio en construccion!!👷‍♂️🏗️
-    </MainLayout>
+    <Router />
   );
 }
 

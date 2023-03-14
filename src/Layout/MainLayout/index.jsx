@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../../assets/logo.png'
-import { Container, Box, AppBar, Toolbar, Typography, Button, Avatar } from '@mui/material'
+import { Container, AppBar, Toolbar, Typography, Button, Avatar } from '@mui/material'
+import { Outlet } from 'react-router-dom'
 
 
 
@@ -20,10 +21,8 @@ function Layout({ children }) {
                     <Button color="inherit">Noticias</Button>
                 </Toolbar>
             </AppBar>
-            <Container maxWidth="xl">
-                <Box mt={8}>
-                    {children}
-                </Box>
+            <Container>
+                <Outlet />
             </Container>
         </>
     )
