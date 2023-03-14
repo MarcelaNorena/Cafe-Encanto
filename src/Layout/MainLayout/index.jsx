@@ -1,11 +1,12 @@
 import React from 'react'
 import Logo from '../../assets/logo.png'
 import { Container, AppBar, Toolbar, Typography, Button, Avatar } from '@mui/material'
-import { Outlet } from 'react-router-dom'
+import { Outlet, useNavigate } from 'react-router-dom'
 
 
 
 function Layout({ children }) {
+    const navigate = useNavigate()
     return (
         <>
             <AppBar position="static" sx={{ backgroundColor: '#8C5042' }}>
@@ -16,7 +17,7 @@ function Layout({ children }) {
                     <Typography variant="h6" sx={{ flexGrow: 1 }}>
                         Cafe Expression
                     </Typography>
-                    <Button color="inherit">Menu</Button>
+                    <Button color="inherit" onClick={() => navigate("/")}>Menu</Button>
                     <Button color="inherit">Nuestro Café</Button>
                     <Button color="inherit">Noticias</Button>
                 </Toolbar>

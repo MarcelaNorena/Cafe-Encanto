@@ -1,14 +1,14 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Layout from '../MainLayout'
-
+import Menu from '../../components/Menu'
 
 
 function Router() {
     return (
         <Routes>
             <Route path="/" element={<Layout />}>
-
+                <Route index element={<Menu />} />
             </Route>
         </Routes>
     )
