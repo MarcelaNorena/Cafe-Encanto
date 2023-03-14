@@ -1,6 +1,8 @@
 import React from 'react'
 import { Container, Typography, Box, Paper, CardMedia } from '@mui/material'
 import Banner from '../../assets/banner.jpeg'
+import './index.css'
+
 function NuestroCafe() {
     return (
         <Box sx={{ bgcolor: '#f9f9f9' }}>

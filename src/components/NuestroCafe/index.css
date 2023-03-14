@@ -1,0 +1,20 @@
+.CardMedia-root {
+    height: 300px;
+    object-fit: cover;
+}
+
+.Typography-root {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.Paper-root {
+    padding: 24px;
+    margin-bottom: 48px;
+}
+
+.Typography-body1 {
+    line-height: 1.8;
+    margin-bottom: 16px;
+}
