@@ -18,7 +18,7 @@ function Layout({ children }) {
                         Cafe Expression
                     </Typography>
                     <Button color="inherit" onClick={() => navigate("/")}>Menu</Button>
-                    <Button color="inherit">Nuestro Café</Button>
+                    <Button color="inherit" onClick={() => navigate("/nuestro-cafe")}>Nuestro Café</Button>
                     <Button color="inherit">Noticias</Button>
                 </Toolbar>
             </AppBar>
