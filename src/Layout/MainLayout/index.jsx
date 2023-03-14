@@ -1,13 +1,19 @@
 import React from 'react'
-import { Container, Box, AppBar, Toolbar, Typography, Button } from '@mui/material'
+import Logo from '../../assets/logo.png'
+import { Container, Box, AppBar, Toolbar, Typography, Button, Avatar } from '@mui/material'
+
+
 
 function Layout({ children }) {
     return (
         <>
-            <AppBar position="static">
+            <AppBar position="static" sx={{ backgroundColor: '#8C5042' }}>
                 <Toolbar>
+                    <Avatar sx={{ width: 50, height: 50, mr: 2 }}>
+                        <img src={Logo} alt="Logo de la tienda de café" width="50" height="50" />
+                    </Avatar>
                     <Typography variant="h6" sx={{ flexGrow: 1 }}>
-                        <img src="https://tu-logo-aqui.png" alt="Logo de la tienda de café" width="100" height="50" />
+                        Cafe Expression
                     </Typography>
                     <Button color="inherit">Menu</Button>
                     <Button color="inherit">Nuestro Café</Button>
