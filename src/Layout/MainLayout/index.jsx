@@ -15,7 +15,7 @@ function Layout({ children }) {
                         <img src={Logo} alt="Logo de la tienda de café" width="50" height="50" />
                     </Avatar>
                     <Typography variant="h6" sx={{ flexGrow: 1 }}>
-                        Cafe Expression
+                        Cafe Encanto
                     </Typography>
                     <Button color="inherit" onClick={() => navigate("/")}>Menu</Button>
                     <Button color="inherit" onClick={() => navigate("/nuestro-cafe")}>Nuestro Café</Button>

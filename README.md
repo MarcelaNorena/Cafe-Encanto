@@ -1,4 +1,4 @@
-# Tienda Cafe Expression
+# Tienda Cafe Encanto
 
 Este es un proyecto de una tienda de café en línea, creado con React y Material UI.
 
