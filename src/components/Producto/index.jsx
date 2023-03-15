@@ -18,7 +18,7 @@ function ProductCard({ imageSrc, title, price, onAdd }) {
                     $ {price}
                 </Typography>
             </CardContent>
-            <Button onClick={onAdd} variant="contained" sx={{ backgroundColor: "#261420" }}>
+            <Button onClick={onAdd} variant="contained" sx={{ backgroundColor: "#7DB166" }}>
                 Agregar
             </Button>
         </Card>
