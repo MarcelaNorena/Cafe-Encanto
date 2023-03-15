@@ -13,14 +13,11 @@ function NuestroCafe() {
             />
             <Container maxWidth="lg" sx={{ py: 8 }}>
                 <Typography variant="h3" sx={{ mb: 4 }}>
-                    Nuestro Café Orgánico
+                    CAFE ENCANTO
                 </Typography>
                 <Paper sx={{ p: 4 }}>
                     <Typography variant="body1">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in convallis diam, a egestas ex. Fusce interdum dui lectus, in viverra metus luctus vitae. Sed at ultricies velit. Nulla facilisi. Integer fringilla congue est vel commodo. Sed auctor gravida nibh, in molestie neque bibendum vel. Vivamus vitae metus aliquam, euismod metus a, dictum sapien.
-                    </Typography>
-                    <Typography variant="body1" sx={{ mt: 2 }}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in convallis diam, a egestas ex. Fusce interdum dui lectus, in viverra metus luctus vitae. Sed at ultricies velit. Nulla facilisi. Integer fringilla congue est vel commodo. Sed auctor gravida nibh, in molestie neque bibendum vel. Vivamus vitae metus aliquam, euismod metus a, dictum sapien.
+                    Somos una cadena de cafeterías reconocidas por su calidad y buen ambiente a nivel regional, teniendo presencia en diferentes lugares de la región Colombiana. Con un equipo de trabajo sólido y profesional, brindando a nuestros CLIENTES el mejor lugar para disfrutar de la bebida más popular del mundo, el café, ofreciendo los Mejores productos y la más alta calidad de SERVICIO
                     </Typography>
                 </Paper>
             </Container>
